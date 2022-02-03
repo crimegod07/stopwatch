@@ -1,4 +1,3 @@
-window.onload = () => {
 
 var seconds = 00; 
 var milliSec = 00;
@@ -59,5 +58,4 @@ function startTimer (){
     if(seconds > 9){
         addSeconds.innerHTML = seconds;
     }
-}
 }
