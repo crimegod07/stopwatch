@@ -1,0 +1,63 @@
+/* Selecting All Elements and Giving Margin and padding all At once */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+/* Container css */
+#container{
+    height:100vh;
+    width:100vw;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, black, transparent);
+}
+
+/* positioning time and small-box using flex */
+#stop-watch{
+    height: 258px;
+    width: 489px;
+    border: 2px solid black;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(45deg, #141111, transparent);
+    
+}
+p{
+    font-size: x-large;
+}
+/*Styling Time Div */
+#time{
+    height: 73px;
+    width: 211px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #fff6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: xx-large;
+}
+.small-box{
+    height: 40px;
+    width: 40px;
+   
+}
+
+/*  Styling Buttons */
+button{
+    padding:20px;
+    margin:10px;
+    border-radius: 34px;
+}

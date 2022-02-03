@@ -1,0 +1,21 @@
+buttonStart.onclick = () => {
+    clearInterval(interval);
+    interval = setInterval(startTimer, 10);
+    
+}
+
+buttonStop.onclick = () => {
+    clearInterval(interval);
+  
+}
+
+buttonReset.onclick = () => {
+    clearInterval();
+    seconds = "00";
+    milliSec ="00";
+
+    addSeconds.innerHTML = seconds;
+    addMillsec.innerHTML = milliSec;
+
+  
+}
